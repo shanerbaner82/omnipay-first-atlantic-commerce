@@ -6,8 +6,11 @@
         "omnipay/common": "~3",
         "ext-json": "*",
         "ext-soap": "*",
-        "league/iso3166": "~1.0.1",
-        "ext-simplexml": "*"
+        "ext-simplexml": "*",
+        "league/iso3166": "^4.3",
+        "symfony/http-client": "^6.3",
+        "php-http/httplug": "^2.4",
+        "nyholm/psr7": "^1.8"
     },
     "license": "MIT",
     "authors": [
@@ -18,5 +21,10 @@
     ],
     "autoload": {
         "psr-4": { "Omnipay\\FAC\\" : "src/" }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
     }
 }
