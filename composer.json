@@ -1,6 +1,6 @@
 {
-    "name": "shanerbaner82/omnipay-first-atlantic-commerce",
-    "description": "First Atlantic Commerce driver for the Omnipay PHP payment processing library",
+    "name": "eventix/omnipay-first-atlantic-commerce",
+    "description": "First Atlantic Commerce V3 driver for the Omnipay PHP payment processing library",
     "type": "library",
     "require": {
         "omnipay/common": "~3",
@@ -17,10 +17,6 @@
         {
             "name": "Chris de Jong",
             "email": "chris@eventix.nl"
-        },
-        {
-            "name": "Shane Rosenthal",
-            "email": "srosenthal82@gmail.com"
         }
     ],
     "autoload": {
