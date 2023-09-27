@@ -17,6 +17,10 @@
         {
             "name": "Chris de Jong",
             "email": "chris@eventix.nl"
+        },
+        {
+            "name": "Shane Rosenthal",
+            "email": "srosenthal82@gmail.com"
         }
     ],
     "autoload": {
